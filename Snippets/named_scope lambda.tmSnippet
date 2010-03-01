@@ -10,7 +10,7 @@
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>ncl</string>
+	<string>ns</string>
 	<key>uuid</key>
 	<string>4E286CB4-069E-474C-A970-95216FE7DE95</string>
 </dict>
