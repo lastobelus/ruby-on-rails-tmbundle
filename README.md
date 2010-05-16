@@ -1,28 +1,51 @@
-# TextMate bundle for Ruby on Rails development
+#HAML TextMate Bundle
 
-To install with Git:
+##Description
 
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/drnic/ruby-on-rails-tmbundle.git "Ruby on Rails.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
+Forked from the Handcrafted HAML TextMate Bundle.  Additions include
 
+####Improved Language
+ * Text inside ERB and Javascript filters are now properly recognized so you get all the syntax highlighting, snippets, commands, etc.
+ * Added built-in html recognition. Helpful when you include html in your haml.
+ * Ruby code inside <code>#{}</code> recognized as embedded ruby
+ * Updated language so that < and > are recognized as HAML constants
 
-To install without Git:
+####Added snippets and commands
+ * <code>⌘⌥+C</code> converts selection from HTML to HAML (and tries to convert erb to haml style - still beta-y)
+ * <code>⌃+></code> inserts <code>#{}</code> and toggles between <code>#{ruby code}</code> and <code>#{ ruby code }</code>
+ * Added snippets for attributes (<code>:⇥</code> and <code>=></code>)
+ * Added full trigger snippets for common html elements (ie table, br, div, h1, h2, etc.)
+ * <code> ⌘+/</code> uses rails comments -# instead of HTML comments
+ * <code>⌘⌥+X</code> escapes HTML special characters
+ 
+####Other Textmate Bundles
+My bundles work best when use in conjunction with my other bundles:
+ * Rails - http://github.com/phuibonhoa/ruby-on-rails-tmbundle
+ * Ruby - http://github.com/phuibonhoa/ruby-tmbundle
+ * Shoulda - http://github.com/phuibonhoa/ruby-shoulda-tmbundle
+ * HAML - http://github.com/phuibonhoa/handcrafted-haml-textmate-bundle
+ * Sass - http://github.com/phuibonhoa/ruby-sass-tmbundle
+ * JavaScript - http://github.com/phuibonhoa/Javascript-Bundle-Extension
+ * CTags - http://github.com/phuibonhoa/tm-ctags-tmbundle
 
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    wget http://github.com/drnic/ruby-on-rails-tmbundle/tarball/master
-    tar zxf drnic-ruby-on-rails-tmbundle*.tar.gz
-    rm drnic-ruby-on-rails-tmbundle*.tar.gz
-    mv drnic-ruby-on-rails-tmbundle* "Ruby on Rails.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
+##Credits
 
-## Rails 3.0 contributors
+Additions by [Philippe Huibonhoa](http://github.com/phuibonhoa)
+
+Original 
+
+##Installation
+
+1. $ `cd ~/Library/Application\ Support/TextMate/Bundles/`
+2. $ `git clone git://git://github.com/phuibonhoa/ruby-on-rails-tmbundle.git Rails.tmbundle`
+3. $ `osascript -e 'tell app "TextMate" to reload bundles'`
+
+##Original Bundle Contributors
+#### Rails 3.0 contributors
 
 * Kamil Kukura (rake migrate timestamp patch)
 
-## Rails 2.0 features/contributors (copied from CHANGELOG)
+#### Rails 2.0 features/contributors (copied from CHANGELOG)
 
 * Snippets/Commands for:
   * Tests
