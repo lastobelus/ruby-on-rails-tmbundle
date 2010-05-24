@@ -12,6 +12,8 @@ Features I've added to the bundle include:
    * <code>⌘⇧+T</code> lists shoulda tests / contexts
 
 ####Other Changes
+ * <code>⌥+:</code> aligns code (ie if you have a hash on multiple lines, you can easily align all the keys with the first key)
+ * <code>⌥⇧+M</code> opens a window of recent migrations with links to open the migration file
  * <code>⌥⇧+L</code> lets you easily  open or tail rails logs (development, test, production) 
  * <code>rest⇥</code> - snippets for rest named routes (you'll never need to pull out that rest cheatsheet again!)
  * <code>⌘⇧+T</code> lists factory names (when file includes Factory Girl definitions)
