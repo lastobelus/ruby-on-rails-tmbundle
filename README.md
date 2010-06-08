@@ -22,7 +22,7 @@ Features I've added to the bundle include:
 ##Installation
 
 1. $ `cd ~/Library/Application\ Support/TextMate/Bundles/`
-2. $ `git clone git://github.com/handcrafted/handcrafted-haml-textmate-bundle.git Haml.tmbundle`
+2. $ `git clone git://github.com/phuibonhoa/ruby-on-rails-tmbundle.git Rails.tmbundle`
 3. $ `osascript -e 'tell app "TextMate" to reload bundles'`
  
 ####My Other Textmate Bundles
