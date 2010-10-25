@@ -17,6 +17,7 @@ Features I've added to the bundle include:
  * <code>⌥⇧+L</code> lets you easily  open or tail rails logs (development, test, production) 
  * <code>rest⇥</code> - snippets for rest named routes (you'll never need to pull out that rest cheatsheet again!)
  * <code>⌘⇧+T</code> lists factory names (when file includes Factory Girl definitions)
+ * <code>Fac ⇥</code> allows searching of all factories definitions and inserts selected factory as a snippet (assumes your factories are in your test/factories/ dir)
  * Lots of other rails snippets: Rails.root, asserts, scopes, etc.  
  
 ##Installation
