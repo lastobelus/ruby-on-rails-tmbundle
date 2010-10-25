@@ -130,7 +130,7 @@ class RailsPath
   end
 
   def rails_root
-    return TextMate.project_directory
+    return find_rails_root(TextMate.project_directory)
     # TODO: Look for the root_indicators inside TM_PROJECT_DIRECTORY and return nil if not found
 
     #self.class.root_indicators.each do |i|
@@ -138,6 +138,29 @@ class RailsPath
     #    return @filepath[0...index]
     #  end
     #end
+  end
+
+  def find_rails_root(path)
+    return path if rails_root?(path)
+    
+    #test top level first
+    Dir.glob(File.join(path, '*')).each do |subpath|
+      return subpath if rails_root?(subpath)
+    end
+    
+    Dir.glob(File.join(path, '*')).each do |subpath|
+      Dir.glob(File.join(subpath, '*')).each do |children_of_subpath|
+        out = find_rails_root(children_of_subpath)
+        return out unless out.nil?        
+      end
+    end
+    
+    return nil
+  end
+
+  def rails_root?(path)
+    return true if File.exists?(File.join(path, 'app')) and File.exists?(File.join(path, 'app', 'controllers')) and File.exists?(File.join(path, 'app', 'models'))
+    return false
   end
 
   # This is used in :file_type and :rails_path_for_view
