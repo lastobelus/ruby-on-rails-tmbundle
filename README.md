@@ -18,6 +18,7 @@ Features I've added to the bundle include:
  * <code>rest⇥</code> - snippets for rest named routes (you'll never need to pull out that rest cheatsheet again!)
  * <code>⌘⇧+T</code> lists factory names (when file includes Factory Girl definitions)
  * <code>Fac ⇥</code> allows searching of all factories definitions and inserts selected factory as a snippet (assumes your factories are in your test/factories/ dir)
+ * <code>⌥+␣</code> (option + spacebar) shows columns of the selected model.  Added search capability to this and fixed to work with nested directories in your models dir.
  * Lots of other rails snippets: Rails.root, asserts, scopes, etc.  
  
 ##Installation
