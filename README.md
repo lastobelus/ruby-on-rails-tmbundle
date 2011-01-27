@@ -19,6 +19,7 @@ Features I've added to the bundle include:
  * <code>⌘⇧+T</code> lists factory names (when file includes Factory Girl definitions)
  * <code>Fac ⇥</code> allows searching of all factories definitions and inserts selected factory as a snippet (assumes your factories are in your test/factories/ dir)
  * <code>⌥+␣</code> (option + spacebar) shows columns of the selected model.  Added search capability to this and fixed to work with nested directories in your models dir.
+ * Command to convert move :table, :column, :after => :another_column into the proper migration format with the column type
  * Lots of other rails snippets: Rails.root, asserts, scopes, etc.  
  
 ##Installation
