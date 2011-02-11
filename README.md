@@ -43,7 +43,10 @@ My bundles work best when use in conjunction with my other bundles:
 
 ##Credits
 
-Additions by [Philippe Huibonhoa](http://github.com/phuibonhoa)
+
+![BookRenter.com Logo](http://assets0.bookrenter.com/images/header/bookrenter_logo.gif "BookRenter.com")
+
+Additions by [Philippe Huibonhoa](http://github.com/phuibonhoa) and funded by [BookRenter.com](http://www.bookrenter.com "BookRenter.com").
 
 
 Original bundle and it's contributors can be found [here](http://github.com/drnic/ruby-on-rails-tmbundle)
