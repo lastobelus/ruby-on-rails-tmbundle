@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>before_validation_on_create </string>
+	<string>gem '${1:paperclip}', :git =&gt; "${2:git://github.com/thoughtbot/paperclip.git}"${3:, :branch =&gt; "${4:rails3}"}</string>
 	<key>name</key>
-	<string>before_validation_on_create</string>
+	<string>gem :git</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>befvoc</string>
+	<string>gemg</string>
 	<key>uuid</key>
-	<string>E2CE2E3B-8A61-4866-9AF5-A12F44CF7233</string>
+	<string>675DD92F-42F1-4B55-B56A-5D4ABC1375C4</string>
 </dict>
 </plist>

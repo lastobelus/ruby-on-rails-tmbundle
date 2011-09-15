@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>before_validation_on_update</string>
+	<string>caches_action :${1:action}</string>
 	<key>name</key>
-	<string>before_validation_on_update</string>
+	<string>caches_action</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>befvou</string>
+	<string>cache</string>
 	<key>uuid</key>
-	<string>86CFB156-E72B-440F-9C7D-08A3375C3ADB</string>
+	<string>017634C2-FC55-41BA-B551-82436809D71B</string>
 </dict>
 </plist>

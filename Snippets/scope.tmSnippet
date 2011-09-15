@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>before_validation :${1:field}${2:, :on =&gt; :${3:create|update}${4:${5:, :allow_blank =&gt; true}${6:, :allow_nil =&gt; true}}}$0</string>
+	<string>scope :${1:name}, ${2:joins(:${3:table}).}where(${4:'${5:$3.${6:field}} = ?', ${7:'${8:value}'}})</string>
 	<key>name</key>
-	<string>before_validation</string>
+	<string>scope</string>
 	<key>scope</key>
 	<string>meta.rails.model</string>
 	<key>tabTrigger</key>
-	<string>befv</string>
+	<string>scope</string>
 	<key>uuid</key>
-	<string>A1776279-5396-4FE9-9218-8BF2C88C5271</string>
+	<string>8F87F3C7-8ABB-4778-9786-64CF95E99160</string>
 </dict>
 </plist>

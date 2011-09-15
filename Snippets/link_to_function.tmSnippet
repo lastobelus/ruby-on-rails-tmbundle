@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1:"${2:link text...}"}, ${3:${4:model}s_path}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
+	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to_function ${1:"${2:Greeting}"}, "${3:alert('Hello world!')}"$4${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
 	<key>name</key>
-	<string>link_to (path plural)</string>
+	<string>link_to_function</string>
 	<key>scope</key>
 	<string>text.html.ruby, text.haml</string>
 	<key>tabTrigger</key>
-	<string>lt</string>
+	<string>lf</string>
 	<key>uuid</key>
-	<string>6BA737F0-63D1-4D82-9381-4331E18B12C5</string>
+	<string>F5983CAF-0655-45FA-A385-9E9A8C28425C</string>
 </dict>
 </plist>

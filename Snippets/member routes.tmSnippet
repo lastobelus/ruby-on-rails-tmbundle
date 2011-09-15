@@ -3,14 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>respond_to :${1:html}${2:, :${3:xml}${4:, :${5:json}}}$0</string>
+	<string>member do
+  ${1:get :${2:action}}
+  ${3:put :${4:action}}
+  ${5:post :${6:action}}
+  ${7:delete :${8:action}}
+end</string>
 	<key>name</key>
-	<string>respond_to</string>
+	<string>member routes</string>
 	<key>scope</key>
-	<string>meta.rails.controller</string>
+	<string>meta.rails.routes</string>
 	<key>tabTrigger</key>
-	<string>rest</string>
+	<string>member</string>
 	<key>uuid</key>
-	<string>B41D3164-EA53-4DDC-850E-27B82B24061F</string>
+	<string>7C2F96AF-7F07-4B71-A41C-812294ECA6EE</string>
 </dict>
 </plist>

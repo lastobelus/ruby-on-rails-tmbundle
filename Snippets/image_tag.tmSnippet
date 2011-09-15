@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1:"${2:link text...}"}, ${3:${4:model}s_path}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
+	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}image_tag "$1${2:.png}"${3:${4:, :title =&gt; "${5:title}"}${6:, :class =&gt; "${7:class}"}}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
 	<key>name</key>
-	<string>link_to (path plural)</string>
+	<string>image_tag</string>
 	<key>scope</key>
 	<string>text.html.ruby, text.haml</string>
 	<key>tabTrigger</key>
-	<string>lt</string>
+	<string>it</string>
 	<key>uuid</key>
-	<string>6BA737F0-63D1-4D82-9381-4331E18B12C5</string>
+	<string>4EA6FBD1-CDEA-4DF6-9F70-A1EDA35AC3D7</string>
 </dict>
 </plist>
