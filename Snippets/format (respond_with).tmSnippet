@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>format.${1:html|xml|json|js|any} { $0 }</string>
+	<string>format.${1:html|xml|json|js|any} { $2 }$0</string>
 	<key>name</key>
 	<string>format (respond_with)</string>
 	<key>scope</key>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>maximum${1/.+/(/}${1:'${2:column}'}${1/.+/)/}$0</string>
+	<key>name</key>
+	<string>activerecord.maximum</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>mam</string>
+	<key>uuid</key>
+	<string>3067AF3F-C380-413B-837A-6D511837A79E</string>
+</dict>
+</plist>

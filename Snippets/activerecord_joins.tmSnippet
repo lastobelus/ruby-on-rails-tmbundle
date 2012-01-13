@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>joins(:${1:users}).where(:${2:name} =&gt; ${3:"${4:name}"})</string>
+	<key>name</key>
+	<string>activerecord.joins</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>joi</string>
+	<key>uuid</key>
+	<string>8CE45444-8B80-4E67-9C14-A141A580CB35</string>
+</dict>
+</plist>

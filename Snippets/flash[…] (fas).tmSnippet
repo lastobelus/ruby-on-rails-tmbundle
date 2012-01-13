@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>flash[:${1:notice}] = "${2:Successfully created...}"$0</string>
+	<key>name</key>
+	<string>flash[…] (fas)</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>fas</string>
+	<key>uuid</key>
+	<string>69BA286B-1B49-4560-972A-954BD4556629</string>
+</dict>
+</plist>

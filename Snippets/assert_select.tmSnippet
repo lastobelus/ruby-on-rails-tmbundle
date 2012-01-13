@@ -11,7 +11,7 @@ end}</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>ass</string>
+	<string>assel</string>
 	<key>uuid</key>
 	<string>DBE14FE8-B415-4DBC-A316-F8DA63FE9FD7</string>
 </dict>

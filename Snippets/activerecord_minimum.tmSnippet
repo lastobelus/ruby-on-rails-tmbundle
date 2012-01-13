@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>minimum${1/.+/(/}${1:'${2:column}'}${1/.+/)/}$0</string>
+	<key>name</key>
+	<string>activerecord.minimum</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>mim</string>
+	<key>uuid</key>
+	<string>5A5A364E-82F8-44EB-9706-0722468FB2DB</string>
+</dict>
+</plist>

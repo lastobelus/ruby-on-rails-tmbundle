@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>each_with_object(${1:{\}}) { |${2:value}, ${3:object}| $0 }</string>
+	<string>each_with_object(${1:{\}}) { |${2:value}, ${3:object}| $4 }$0</string>
 	<key>name</key>
 	<string>each_with_object</string>
 	<key>scope</key>

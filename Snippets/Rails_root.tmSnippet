@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Rails.root.join(*%w[$1])$0</string>
+	<string>Rails.root</string>
 	<key>name</key>
 	<string>Rails.root</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>Rails.root</string>
+	<string>rr</string>
 	<key>uuid</key>
 	<string>D671C4C1-ECFC-4999-A792-622B6126A2B2</string>
 </dict>

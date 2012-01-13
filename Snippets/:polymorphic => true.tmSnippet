@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:polymorphic =&gt; true</string>
+	<key>name</key>
+	<string>:polymorphic =&gt; true</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>poly</string>
+	<key>uuid</key>
+	<string>7B68A11D-633E-4F2B-86BE-7041565D90DF</string>
+</dict>
+</plist>

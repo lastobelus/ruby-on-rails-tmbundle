@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>serialize :${1:preferences}${2:, ${3:Hash}}</string>
+	<key>name</key>
+	<string>activerecord.serialize</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>ser</string>
+	<key>uuid</key>
+	<string>18EBC23D-F758-42A7-B769-313D2ED4E05B</string>
+</dict>
+</plist>

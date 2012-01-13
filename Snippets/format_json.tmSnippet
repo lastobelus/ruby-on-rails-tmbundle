@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>format.json { $1 }$0</string>
+	<key>name</key>
+	<string>format.json</string>
+	<key>scope</key>
+	<string>meta.rails.controller</string>
+	<key>tabTrigger</key>
+	<string>fomn</string>
+	<key>uuid</key>
+	<string>0F77E2B9-1319-44B4-A34A-8433775F01BC</string>
+</dict>
+</plist>

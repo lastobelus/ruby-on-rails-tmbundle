@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>find(:last${1:, :conditions =&gt; ['${2:${3:field} = ?}', ${5:true}]})</string>
+	<string>:through =&gt; :${1:entity}$0</string>
 	<key>name</key>
-	<string>find(:last)</string>
+	<string>:through =&gt; :entity</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>finl</string>
+	<string>through</string>
 	<key>uuid</key>
-	<string>8B515110-41D3-11DD-AE16-0800200C9A66</string>
+	<string>0461D90F-0989-40FD-A1EE-3D8719CF504D</string>
 </dict>
 </plist>

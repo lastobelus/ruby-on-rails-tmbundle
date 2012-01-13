@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>select_pairs { |${1:k, v}| $0 }</string>
+	<string>select_pairs { |${1:k, v}| $2 }$0</string>
 	<key>name</key>
 	<string>select_pairs</string>
 	<key>scope</key>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>limit(${1:10})$0</string>
+	<key>name</key>
+	<string>activerecord.limit</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>lim</string>
+	<key>uuid</key>
+	<string>F7ED3B05-8FB7-4929-A3DD-0627BD4C9D1C</string>
+</dict>
+</plist>

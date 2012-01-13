@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>select("DISTINCT(${1:name})")$0</string>
+	<key>name</key>
+	<string>activerecord.select(DISTINCT)</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>seld</string>
+	<key>uuid</key>
+	<string>4DC1937A-F05F-4084-8FA7-141DE5DAB415</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>persisted?</string>
+	<key>name</key>
+	<string>activerecord.persisted?</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>pers</string>
+	<key>uuid</key>
+	<string>D6463B9C-AC01-4724-856E-56583F41E158</string>
+</dict>
+</plist>

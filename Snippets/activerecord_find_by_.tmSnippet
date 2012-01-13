@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>find_by_${1:name}(${2:"${3:name}"})</string>
+	<key>name</key>
+	<string>activerecord.find_by_</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>fib</string>
+	<key>uuid</key>
+	<string>EC570ED2-A408-476B-8A01-32AD1D923076</string>
+</dict>
+</plist>

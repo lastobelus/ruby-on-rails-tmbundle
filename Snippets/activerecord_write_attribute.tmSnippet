@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:name}=(new_$1)
+	write_attribute(:$1, ${2:new_$1})$3
+end$0</string>
+	<key>name</key>
+	<string>activerecord.write_attribute</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>wat</string>
+	<key>uuid</key>
+	<string>C09F71D1-038A-4A40-ACE9-7FFB6E0AD07A</string>
+</dict>
+</plist>

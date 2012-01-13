@@ -15,6 +15,8 @@ end</string>
 	<string>respond_to (html)</string>
 	<key>scope</key>
 	<string>meta.rails.controller</string>
+	<key>tabTrigger</key>
+	<string>resth</string>
 	<key>uuid</key>
 	<string>3BDD0D52-443E-4F5F-AE09-ABCC2ABE9A42</string>
 </dict>

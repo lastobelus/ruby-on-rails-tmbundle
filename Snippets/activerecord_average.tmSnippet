@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>average${1/.+/(/}${1:'${2:column}'}${1/.+/)/}$0</string>
+	<key>name</key>
+	<string>activerecord.average</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>av</string>
+	<key>uuid</key>
+	<string>BC4579BF-F2A2-4407-B9DF-0B5D0A9584CE</string>
+</dict>
+</plist>

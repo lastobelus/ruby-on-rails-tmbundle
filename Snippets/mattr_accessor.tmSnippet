@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mattr_accessor :${0:attr_names}</string>
+	<string>mattr_accessor :${1:attr_names}$0</string>
 	<key>name</key>
 	<string>mattr_accessor</string>
 	<key>scope</key>

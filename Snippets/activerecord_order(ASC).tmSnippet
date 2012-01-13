@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>order("${1:created_at} ASC")$0</string>
+	<key>name</key>
+	<string>activerecord.order(ASC)</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>oras</string>
+	<key>uuid</key>
+	<string>8121CB63-4C34-467B-A939-D15B4277D685</string>
+</dict>
+</plist>

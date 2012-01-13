@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>lock("LOCK IN SHARE MODE")</string>
+	<key>name</key>
+	<string>activerecord.lock("LOCK IN SHARE MODE")</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>loks</string>
+	<key>uuid</key>
+	<string>793AD9BE-05EF-4096-B079-75F0F7AD3A7A</string>
+</dict>
+</plist>

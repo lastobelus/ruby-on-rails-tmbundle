@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>reorder("${1:name}")$0</string>
+	<key>name</key>
+	<string>activerecord.reorder</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>reo</string>
+	<key>uuid</key>
+	<string>A2A9E803-E51E-44C7-9949-271FD7932C1F</string>
+</dict>
+</plist>

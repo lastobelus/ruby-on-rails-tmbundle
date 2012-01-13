@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>having("${1:sum(price) &gt; ?}", ${2:100})$0</string>
+	<key>name</key>
+	<string>activerecord.having</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>hav</string>
+	<key>uuid</key>
+	<string>A977A6D3-9DEE-4051-9CBB-D239D9C3889E</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>assign_attributes({ :${1:name} =&gt; ${2:"$3"}${4:, :${5:is_admin} =&gt; ${6:"$7"} \}}${8:, :as =&gt; :${9:admin}})</string>
+	<key>name</key>
+	<string>assign_attributes</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>asat</string>
+	<key>uuid</key>
+	<string>F35FA926-F818-4441-BBFD-ACB1F6FC9888</string>
+</dict>
+</plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>find(:first${1:, :conditions =&gt; ['${2:${3:field} = ?}', ${5:true}]})</string>
+	<string>Rails.root.join(*%w[$1])$0</string>
 	<key>name</key>
-	<string>find(:first)</string>
+	<string>Rails.root.join</string>
 	<key>scope</key>
-	<string>source.ruby.rails</string>
+	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>finf</string>
+	<string>Rails.root</string>
 	<key>uuid</key>
-	<string>FE430ECD-5D40-4D95-A73B-F064C73992DE</string>
+	<string>D7C379A5-C9BA-49F4-BEC3-4C837FC1A65C</string>
 </dict>
 </plist>
