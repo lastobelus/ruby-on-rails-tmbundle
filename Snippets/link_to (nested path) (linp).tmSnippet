@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1:"${2:link text...}"}, ${3:${10:parent}_${11:child}_path(${12:@}${13:${10}})}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
+	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1:"${2:link text...}"}, ${3:${12:parent}_${13:child}_path(${14:@}${15:${12}}, ${16:@}${17:${13}})}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
 	<key>name</key>
-	<string>link_to (nested path plural)</string>
+	<string>link_to (nested path) (linp)</string>
 	<key>scope</key>
 	<string>text.html.ruby, text.haml</string>
 	<key>tabTrigger</key>
-	<string>lit</string>
+	<string>linp</string>
 	<key>uuid</key>
-	<string>866AAD87-E458-4F2D-9E7C-3CE73EFC047B</string>
+	<string>18790FF1-9DDE-4231-9653-63C439E6D7F6</string>
 </dict>
 </plist>

@@ -5,12 +5,12 @@
 	<key>content</key>
 	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1:"${2:link text...}"}, ${3:${10:parent}_${11:child}_path(${12:@}${13:${10}})}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
 	<key>name</key>
-	<string>link_to (nested path plural)</string>
+	<string>link_to (nested path plural) (linpp)</string>
 	<key>scope</key>
 	<string>text.html.ruby, text.haml</string>
 	<key>tabTrigger</key>
-	<string>lit</string>
+	<string>linpp</string>
 	<key>uuid</key>
-	<string>866AAD87-E458-4F2D-9E7C-3CE73EFC047B</string>
+	<string>2DA90137-2779-43B5-9B48-C396F03E8341</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>redirect_to(${2:${10:models}_path})</string>
+	<string>layout "${1:template_name}"${2:${3:, :only =&gt; ${4:[:${5:action}, :${6:action}]}}${7:, :except =&gt; ${8:[:${9:action}, :${10:action}]}}}</string>
 	<key>name</key>
-	<string>redirect_to (path plural)</string>
+	<string>layout (lay)</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>repp</string>
+	<string>lay</string>
 	<key>uuid</key>
-	<string>AFE06B67-CE98-42A6-93D1-8EC8E3B9F83C</string>
+	<string>6B7740CE-B969-4B83-8584-0266340D05D6</string>
 </dict>
 </plist>

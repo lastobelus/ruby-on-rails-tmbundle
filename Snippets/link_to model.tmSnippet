@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>text.html.ruby, text.haml</string>
 	<key>tabTrigger</key>
-	<string>lt</string>
+	<string>lit</string>
 	<key>uuid</key>
 	<string>E5E08AA0-4EDD-4583-BF07-5D6C49E98410</string>
 </dict>

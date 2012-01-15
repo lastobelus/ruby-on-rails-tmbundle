@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>wants.js${1: { $2 \}}$0</string>
+	<string>alias_attribute :${1:new_name}, :${2:old_name}</string>
 	<key>name</key>
-	<string>wants.js</string>
+	<string>alias_attribute (alat)</string>
 	<key>scope</key>
-	<string>meta.rails.controller</string>
+	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>waj</string>
+	<string>alat</string>
 	<key>uuid</key>
-	<string>3F26FDB4-ACF9-4856-9312-6A4D78DC8564</string>
+	<string>CB086096-5F33-46CC-BA62-7C894923F6D0</string>
 </dict>
 </plist>

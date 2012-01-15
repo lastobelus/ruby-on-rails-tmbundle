@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>scope :${1:name}, ${2:where(${3::${4:field} =&gt; ${5:'${6:value}'}})} do
-  def ${7:method_name}
-    $0
-  end
-end</string>
+	<string>scope :${1:name}, lambda { |${2:param}| ${3:where(${4::${5:field} =&gt; ${6:"${7:value}"}})} }</string>
 	<key>name</key>
-	<string>scope with extension</string>
+	<string>scope lambda (scopl)</string>
 	<key>scope</key>
 	<string>meta.rails.model</string>
 	<key>tabTrigger</key>
-	<string>scope</string>
+	<string>scopl</string>
 	<key>uuid</key>
-	<string>CEA1D76C-DEB0-4ADB-840D-220E569D5B8F</string>
+	<string>00C3F13E-5DDA-4A3E-A54E-178FF5EC9B93</string>
 </dict>
 </plist>

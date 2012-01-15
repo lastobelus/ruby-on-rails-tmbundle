@@ -9,12 +9,12 @@
   end
 end</string>
 	<key>name</key>
-	<string>scope with extension</string>
+	<string>scope with extension (scopx)</string>
 	<key>scope</key>
 	<string>meta.rails.model</string>
 	<key>tabTrigger</key>
-	<string>scope</string>
+	<string>scopx</string>
 	<key>uuid</key>
-	<string>CEA1D76C-DEB0-4ADB-840D-220E569D5B8F</string>
+	<string>6E6474DF-6433-4E03-855A-C59F64CBC528</string>
 </dict>
 </plist>

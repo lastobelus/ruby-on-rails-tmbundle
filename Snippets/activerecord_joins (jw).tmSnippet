@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>wants.js${1: { $2 \}}$0</string>
+	<string>joins(:${1:users}).where(:${2:name} =&gt; ${3:"${4:name}"})</string>
 	<key>name</key>
-	<string>wants.js</string>
+	<string>activerecord.joins (jw)</string>
 	<key>scope</key>
-	<string>meta.rails.controller</string>
+	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>waj</string>
+	<string>jw</string>
 	<key>uuid</key>
-	<string>3F26FDB4-ACF9-4856-9312-6A4D78DC8564</string>
+	<string>C818A7A5-4EEA-424B-8CC8-19548F9A3235</string>
 </dict>
 </plist>
