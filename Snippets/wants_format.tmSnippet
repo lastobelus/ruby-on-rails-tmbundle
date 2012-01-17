@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>wants.js${1: { $2 \}}$0</string>
+	<string>format.js${1: { $2 \}}$0</string>
 	<key>name</key>
-	<string>wants.js</string>
+	<string>format.js</string>
 	<key>scope</key>
 	<string>meta.rails.controller</string>
 	<key>tabTrigger</key>
