@@ -177,6 +177,8 @@ module TextMate
       options += variables.map { |variable| variable.gsub('@@', '') } + [nil] if variables
       options += methods + [nil] if methods
       
+#      TextMate.exit_show_tool_tip("options: #{options.inspect}")
+      
       search_term = TextMate::UI.request_string(:title => "Find a method", :prompt => "Find method for: '#{klass}'") if search_term.nil?
       options = array_sorted_search(options, search_term) unless search_term.nil? or search_term == ''
       
@@ -228,15 +230,19 @@ module TextMate
     end
     
     def caller_and_method_search_term
+      #TextMate.exit_show_tool_tip("current_word: #{current_word.inspect}")
+      
       @caller_and_method ||= (
         parts = current_word.split(/\.|(::)/)
+
 
         if parts.size == 1
           caller = parts.first
           method_search_term = nil
-        elsif current_word =~ /\.|(::)$/
-          caller = parts[-1]
-          method_search_term = nil
+         # don't know what the intention is here. what I want to be able to do is invoice.na and get invoice.name
+#        elsif current_word =~ /\.|(::)$/
+#          caller = parts[-1]
+#          method_search_term = nil
         else
           caller = parts[-2]
           method_search_term = parts[-1]

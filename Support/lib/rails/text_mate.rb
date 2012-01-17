@@ -12,11 +12,19 @@ module TextMate
       `open "#{url}"`
     end
 
+    def uri_escape(*args)
+      if URI.const_defined?(:Parser)
+        URI::Parser.new.escape(*args)
+      else
+        URI.escape(*args)
+      end
+    end
+    
     # Open a file in textmate using the txmt:// protocol.  Uses 0-based line and column indices.
     def open(filename, line_number = nil, column_number = nil)
       filename = filename.filepath if filename.is_a? RailsPath
       options = []
-      options << "url=file://#{URI.escape(filename)}"
+      options << "url=file://#{uri_escape(filename)}"
       options << "line=#{line_number + 1}" if line_number
       options << "column=#{column_number + 1}" if column_number
       open_url "txmt://open?" + options.join("&")
@@ -45,33 +53,6 @@ module TextMate
       ENV['TM_' + var.to_s.upcase]
     end
 
-    # SizzlerWA, 2008-12-10:
-    #
-    # Handles failure when Shift-Ctrl-h is used in a view file
-    # (turn selected into partial) that was giving error messages
-    # like:
-    #
-    #  /Users/yourusername/Library/Application Support/TextMate/Bundles/Ruby on Rails.tmbundle/Support/lib/rails/text_mate.rb:64:in `method_missing': undefined method `rescan_project' for TextMate:Module (NoMethodError)
-    # from /Users/yourusername/Library/Application Support/TextMate/Bundles/Ruby on Rails.tmbundle/Support/bin/create_partial_from_selection.rb:46
-    #
-    # This implementation just uses osascript to invoke two
-    # AppleScript commands that basically send focus to
-    # SystemUIServer and then back to TextMate to force TextMate
-    # to rescan the project, both using the activate command.
-    # This is preferable to the user seeing the error above or
-    # having to defocus and refocus TextMate themselves.
-    #
-    # This implementation of rescan_project was copied verbatim
-    # from
-    #
-    #   Public Clone URL: git://gist.github.com/15748.git
-    #              Owner: pieter
-    def rescan_project
-        `osascript &>/dev/null \
-	        -e 'tell app "SystemUIServer" to activate'; \
-	        osascript &>/dev/null \
-	        -e 'tell app "TextMate" to activate' &`
-    end
 
     # Forward to the TM_* environment variables if method is missing.  Some useful variables include:
     #   selected_text, current_line, column_number, line_number, support_path

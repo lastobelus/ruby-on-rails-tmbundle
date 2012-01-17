@@ -13,8 +13,16 @@ include FileUtils::Verbose
 DIR_TO_CLEAN = File.expand_path(File.dirname(__FILE__) + "/../")
 BADCHARS = /([<>\|:\*…\"\?\\“”↵—↓↵‘’¬])/
 
+def uri_escape(*args)
+  if URI.const_defined?(:Parser)
+    URI::Parser.new.escape(*args)
+  else
+    URI.escape(*args)
+  end
+end
+
 def sanitize(f)
-	URI.escape(f, BADCHARS).chomp
+	uri_escape(f, BADCHARS).chomp
 end
 
 def verbose_rename (orig_name, new_name)

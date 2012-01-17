@@ -47,7 +47,7 @@ end
 
 class RailsPath
   attr_reader :filepath
-  attr_reader :path_name, :file_name, :content_type, :extension
+  attr_reader :path_name, :file_name, :content_type
 
   include AssociationMessages
 
@@ -167,27 +167,28 @@ class RailsPath
   VIEW_EXTENSIONS = %w( erb builder rhtml rxhtml rxml rjs haml )
 
   def file_type
-    return @file_type if @file_type
-
-    @file_type =
-      case @filepath
-      when %r{/controllers/(.+_controller\.(rb))$}      then :controller
-      when %r{/controllers/(application\.(rb))$}        then :controller
-      when %r{/helpers/(.+_helper\.rb)$}                then :helper
-      when %r{/views/(.+\.(#{VIEW_EXTENSIONS * '|'}))$} then :view
-      when %r{/models/(.+\.(rb))$}                      then :model
-      when %r{/.+/fixtures/(.+\.(yml|csv))$}            then :fixture
-      when %r{/test/functional/(.+\.(rb))$}             then :functional_test
-      when %r{/test/unit/(.+\.(rb))$}                   then :unit_test
-      when %r{/public/javascripts/(.+\.(js))$}          then :javascript
-      when %r{/public/stylesheets/(?:sass/)?(.+\.(css|sass))$}  then :stylesheet
-      else nil
-      end
-    # Store the tail (modules + file) after the regexp
-    # The first set of parens in each case will become the "tail"
-    @tail = $1
-    # Store the file extension
-    @extension = $2
+    @file_type ||= nil
+    unless @file_type
+      @file_type =
+        case @filepath
+        when %r{/controllers/(.+_controller\.(rb))$}      then :controller
+        when %r{/controllers/(application\.(rb))$}        then :controller
+        when %r{/helpers/(.+_helper\.rb)$}                then :helper
+        when %r{/views/(.+\.(#{VIEW_EXTENSIONS * '|'}))$} then :view
+        when %r{/models/(.+\.(rb))$}                      then :model
+        when %r{/.+/fixtures/(.+\.(yml|csv))$}            then :fixture
+        when %r{/test/functional/(.+\.(rb))$}             then :functional_test
+        when %r{/test/unit/(.+\.(rb))$}                   then :unit_test
+        when %r{/public/javascripts/(.+\.(js))$}          then :javascript
+        when %r{/public/stylesheets/(?:sass/)?(.+\.(css|sass))$}  then :stylesheet
+        else nil
+        end
+      # Store the tail (modules + file) after the regexp
+      # The first set of parens in each case will become the "tail"
+      @tail = $1
+      # Store the file extension
+      @extension = $2
+    end
     return @file_type
   end
 
@@ -199,6 +200,7 @@ class RailsPath
 
   def extension
     # Get the extension if it's not set yet
+    @extension ||= nil
     file_type unless @extension
     return @extension
   end
