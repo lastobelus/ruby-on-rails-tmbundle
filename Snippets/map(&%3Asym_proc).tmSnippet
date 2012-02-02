@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>map(:${1:id})</string>
+	<string>map(&amp;:${1:id})</string>
 	<key>name</key>
 	<string>map(&amp;:sym_proc)</string>
 	<key>scope</key>
