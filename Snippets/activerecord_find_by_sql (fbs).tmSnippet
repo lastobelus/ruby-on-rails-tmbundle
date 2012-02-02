@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>map(:${1:id})</string>
+	<string>find_by_sql(${1:"${2:sql}"})$0</string>
 	<key>name</key>
-	<string>map(&amp;:sym_proc)</string>
+	<string>activerecord.find_by_sql (fbs)</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>mp</string>
+	<string>fbs</string>
 	<key>uuid</key>
-	<string>EC605540-C431-4FD0-AD91-D913118DACA7</string>
+	<string>D1DCF466-D687-4F7E-A5CF-D8D2D3CD43D6</string>
 </dict>
 </plist>
